@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Expert Consultancy Services in Florida | JM Business Services",
+      "hasCanvas": false,
+      "bodyTextLen": 2217,
+      "bodyTextHash": "29ad78c75a3b93faca7d18e72b523b1d82f82b1bdfb7bd338bce1f5a094b9bbe",
+      "bodyTextPrefix": "Skip to content JM JM Business Services Florida consultancy Plan",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Expert Consultancy Services in Florida | JM Business Services",
+      "hasCanvas": false,
+      "bodyTextLen": 2166,
+      "bodyTextHash": "c360800e208ab716e6780e0e76b3eceabbba8688e97da5f783762fb2dcbfa435",
+      "bodyTextPrefix": "Skip to content JM JM Business Services Florida consultancy Expe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

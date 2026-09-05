@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<body style="margin:0;background:#b8b4a8;padding:12px;font-family:sans-serif;color:#1a1c18">
+  <div style="display:flex;gap:16px;align-items:flex-end;flex-wrap:wrap">
+
+    <!-- A: pixel-grid filled J, integer 16 -->
+    <div>
+      <div style="font-size:10px;margin-bottom:4px">A pixel</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="#f3efe6">
+          <rect x="7" y="3" width="3" height="8"/>
+          <rect x="5" y="3" width="5" height="2"/>
+          <rect x="4" y="10" width="6" height="3"/>
+          <rect x="4" y="9" width="2" height="2"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="#f3efe6">
+          <rect x="7" y="3" width="3" height="8"/>
+          <rect x="5" y="3" width="5" height="2"/>
+          <rect x="4" y="10" width="6" height="3"/>
+          <rect x="4" y="9" width="2" height="2"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- B: stroke J with top serif, centered -->
+    <div>
+      <div style="font-size:10px;margin-bottom:4px">B stroke serif</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 3.6h4.4"/>
+          <path d="M8.2 3.6v6.7c0 1.35-1.05 2.15-2.45 2.15"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 3.6h4.4"/>
+          <path d="M8.2 3.6v6.7c0 1.35-1.05 2.15-2.45 2.15"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- C: filled path J, 16 viewBox -->
+    <div>
+      <div style="font-size:10px;margin-bottom:4px">C filled path</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <path fill="#f3efe6" d="M5.5 3h5.5v2H9.2v6c0 .85-.55 1.35-1.4 1.35H5.2v2h2.7C9.8 14.35 11.2 12.9 11.2 10.7V5H12.5V3H5.5z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <path fill="#f3efe6" d="M5.5 3h5.5v2H9.2v6c0 .85-.55 1.35-1.4 1.35H5.2v2h2.7C9.8 14.35 11.2 12.9 11.2 10.7V5H12.5V3H5.5z"/>
+      </svg>
+    </div>
+
+    <!-- D: 32-grid even coords filled J -->
+    <div>
+      <div style="font-size:10px;margin-bottom:4px">D 32-grid</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+        <rect width="32" height="32" rx="5" fill="#234736"/>
+        <path fill="#f3efe6" d="M11 6h11v5h-5v11c0 2.2-1.6 3.6-3.8 3.6H8v-5h4c.8 0 1.2-.4 1.2-1.2V11h-2.2V6z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+        <rect width="32" height="32" rx="5" fill="#234736"/>
+        <path fill="#f3efe6" d="M11 6h11v5h-5v11c0 2.2-1.6 3.6-3.8 3.6H8v-5h4c.8 0 1.2-.4 1.2-1.2V11h-2.2V6z"/>
+      </svg>
+    </div>
+
+    <!-- E: simple stroke J, no top bar, like original left glyph centered -->
+    <div>
+      <div style="font-size:10px;margin-bottom:4px">E stroke hook</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <path fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+          d="M8.4 3.5v6.7c0 1.4-1.1 2.2-2.5 2.2"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <path fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+          d="M8.4 3.5v6.7c0 1.4-1.1 2.2-2.5 2.2"/>
+      </svg>
+    </div>
+
+    <!-- F: bold geometric J, 2px units -->
+    <div>
+      <div style="font-size:10px;margin-bottom:4px">F 2px units</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <path fill="#f3efe6" d="M6 3h5v2H9v6H6v2h4c1.5 0 2-1 2-2.5V3H6zm-2 8h2v2H4v-2z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <path fill="#f3efe6" d="M6 3h5v2H9v6H6v2h4c1.5 0 2-1 2-2.5V3H6zm-2 8h2v2H4v-2z"/>
+      </svg>
+    </div>
+
+    <!-- G: centered serif J, stem right of center -->
+    <div>
+      <div style="font-size:10px;margin-bottom:4px">G editorial</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.4 3.5h5"/>
+          <path d="M8.9 3.5v6.9c0 1.35-1.15 2.1-2.6 2.1"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.4 3.5h5"/>
+          <path d="M8.9 3.5v6.9c0 1.35-1.15 2.1-2.6 2.1"/>
+        </g>
+      </svg>
+    </div>
+
+  </div>
+</body>
+</html>

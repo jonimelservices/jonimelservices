@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Expert Consultancy Services in Florida | Jonimel Services",
+      "hasCanvas": false,
+      "bodyTextLen": 2125,
+      "bodyTextHash": "266143d41c6c99540708002f829e567612e603cd4f841ea715095682ddb83a48",
+      "bodyTextPrefix": "Skip to content Planning & Strategy Operational Excellence Conta",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/logo-home.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Expert Consultancy Services in Florida | Jonimel Services",
+      "hasCanvas": false,
+      "bodyTextLen": 2074,
+      "bodyTextHash": "c8562bcde3bfa326c9a7fdce5069184fc080555e7fe11d663bb30a79f48d2e15",
+      "bodyTextPrefix": "Skip to content Expert consultancy · Florida An integrated appro",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/logo-home-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/logo-home.json"
+}

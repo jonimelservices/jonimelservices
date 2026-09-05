@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <style>
+    body { margin: 0; background: #c4bfb3; color: #1a1c18; font: 11px/1.2 ui-sans-serif, system-ui; padding: 16px; }
+    .row { display: flex; gap: 20px; align-items: flex-end; flex-wrap: wrap; }
+    .cell { display: flex; flex-direction: column; gap: 6px; align-items: center; }
+    .tab { background: #ece9e0; padding: 7px 14px 4px; border-radius: 8px 8px 0 0; display: flex; align-items: center; gap: 6px; }
+    .tab span { font: 12px/16px ui-sans-serif, system-ui; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="cell">
+      <div>A stroke 1.75</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.2 3.55h5"/>
+          <path d="M8.7 3.55v6.7c0 1.35-1.1 2.2-2.5 2.2"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.2 3.55h5"/>
+          <path d="M8.7 3.55v6.7c0 1.35-1.1 2.2-2.5 2.2"/>
+        </g>
+      </svg>
+    </div>
+    <div class="cell">
+      <div>B stroke 2</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.15 3.5h5.1"/>
+          <path d="M8.7 3.5v6.55c0 1.35-1.15 2.25-2.55 2.25"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.15 3.5h5.1"/>
+          <path d="M8.7 3.5v6.55c0 1.35-1.15 2.25-2.55 2.25"/>
+        </g>
+      </svg>
+    </div>
+    <div class="cell">
+      <div>C pixel fill</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="#f3efe6">
+          <rect x="8" y="3" width="3" height="8"/>
+          <rect x="6" y="3" width="5" height="2"/>
+          <rect x="4" y="11" width="7" height="2"/>
+          <rect x="4" y="9" width="2" height="3"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="#f3efe6">
+          <rect x="8" y="3" width="3" height="8"/>
+          <rect x="6" y="3" width="5" height="2"/>
+          <rect x="4" y="11" width="7" height="2"/>
+          <rect x="4" y="9" width="2" height="3"/>
+        </g>
+      </svg>
+    </div>
+    <div class="cell">
+      <div>D 32-grid fill</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+        <rect width="32" height="32" rx="5" fill="#234736"/>
+        <path fill="#f3efe6" d="M12 6h10v4h-4v13c0 2.8-2 4.6-4.8 4.6H8v-4h4.2c.9 0 1.4-.5 1.4-1.4V10H12V6z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+        <rect width="32" height="32" rx="5" fill="#234736"/>
+        <path fill="#f3efe6" d="M12 6h10v4h-4v13c0 2.8-2 4.6-4.8 4.6H8v-4h4.2c.9 0 1.4-.5 1.4-1.4V10H12V6z"/>
+      </svg>
+    </div>
+    <div class="cell">
+      <div>E original-J centered</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.5 3.7h4.6"/>
+          <path d="M8.8 3.7v6.4c0 1.35-1.05 2.15-2.45 2.15"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.5 3.7h4.6"/>
+          <path d="M8.8 3.7v6.4c0 1.35-1.05 2.15-2.45 2.15"/>
+        </g>
+      </svg>
+    </div>
+    <div class="cell">
+      <div>F current JM (ref)</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5.25 3.7v6.4c0 1.35-1.05 2.15-2.45 2.15"/>
+          <path d="M8.5 12.35V3.7l2.25 6.15 2.25-6.15v8.65"/>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <rect width="16" height="16" rx="2.5" fill="#234736"/>
+        <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5.25 3.7v6.4c0 1.35-1.05 2.15-2.45 2.15"/>
+          <path d="M8.5 12.35V3.7l2.25 6.15 2.25-6.15v8.65"/>
+        </g>
+      </svg>
+    </div>
+    <div class="cell">
+      <div class="tab">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+          <rect width="16" height="16" rx="2.5" fill="#234736"/>
+          <g fill="none" stroke="#f3efe6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6.5 3.7h4.6"/>
+            <path d="M8.8 3.7v6.4c0 1.35-1.05 2.15-2.45 2.15"/>
+          </g>
+        </svg>
+        <span>Jonimel Services</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

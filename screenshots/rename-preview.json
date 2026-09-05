@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Expert Consultancy Services in Florida | Jonimel Services",
+      "hasCanvas": false,
+      "bodyTextLen": 2203,
+      "bodyTextHash": "4cfca7977d135875dfac42b8e6187ded15a06a324a07014e319a427ef6b66a75",
+      "bodyTextPrefix": "Skip to content J Jonimel Services Florida consultancy Planning ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/rename-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Expert Consultancy Services in Florida | Jonimel Services",
+      "hasCanvas": false,
+      "bodyTextLen": 2152,
+      "bodyTextHash": "6d02645056272a8d751457f8917089f6bde318477ae55de732e67c379ddfb7f4",
+      "bodyTextPrefix": "Skip to content J Jonimel Services Florida consultancy Expert co",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/rename-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/rename-preview.json"
+}
