@@ -25,7 +25,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-bg">
-      <Container className="flex h-16 items-center justify-between gap-4">
+      <Container className="flex h-18 items-center justify-between gap-4">
         <Logo />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label={copy.ui.navAria}>

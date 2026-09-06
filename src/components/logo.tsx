@@ -28,7 +28,7 @@ export function Logo({
           "w-auto outline-none",
           size === "footer"
             ? "h-logo-footer max-w-full sm:h-logo-footer-lg"
-            : "h-10 max-w-[min(100%,11.5rem)] sm:h-11",
+            : "h-logo-header max-w-logo-header sm:h-logo-header-sm",
         )}
       />
     </Link>

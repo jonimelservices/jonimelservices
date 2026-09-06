@@ -23,6 +23,9 @@
 
   --spacing-logo-footer: 3.75rem;
   --spacing-logo-footer-lg: 4.125rem;
+  --spacing-logo-header: 3.6rem;
+  --spacing-logo-header-sm: 3.96rem;
+  --max-width-logo-header: 16.56rem;
 
   --aspect-photo: 3 / 2;
   --aspect-wide: 21 / 9;
